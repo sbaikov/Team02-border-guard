@@ -34,7 +34,7 @@ public class IsikuAndmedController {
     	String eesnimi = request.getParameter("eesnimi")==null ? "" : request.getParameter("eesnimi");
     	String perenimi = request.getParameter("perenimi")==null ? "" : request.getParameter("perenimi");
     	String sugu = request.getParameter("sugu")==null ? "0" : request.getParameter("sugu");
-    	if(sugu.equals("Mees")){
+    	if(sugu.equals("M")){
     		sugu = "M";
     	}else{
     		sugu = "N";
